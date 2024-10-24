@@ -2,3 +2,11 @@
 collections:
   - name: community.general
     version: ">=9.0.0"
+
+roles:
+  - name: keepalived
+    src: evrardjp.keepalived
+    version: 8.1.0
+  - name: caddy
+    src: caddy_ansible.caddy_ansible
+    version: v3.2.0

@@ -1,0 +1,9 @@
+---
+- hosts: loadbalancers
+  become: true
+  gather_facts: true
+  roles:
+    - role: keepalived
+      tags: keepalived
+    - role: caddy
+      tags: caddy
