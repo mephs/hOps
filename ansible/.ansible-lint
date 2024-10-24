@@ -1,0 +1,11 @@
+---
+exclude_paths:
+  - .git
+  - .ansible-lint
+  - .yamllint
+  - roles/
+
+skip_list:
+  - name[play]
+
+use_default_rules: true
