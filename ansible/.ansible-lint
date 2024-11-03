@@ -1,9 +1,7 @@
 ---
 exclude_paths:
-  - .git
-  - .ansible-lint
-  - .yamllint
-  - roles/
+  - ansible/roles
+  - "*.sops.yml"
 
 skip_list:
   - name[play]
