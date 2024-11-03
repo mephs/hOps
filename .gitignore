@@ -13,3 +13,6 @@ override.tf.json
 terraform.rc
 .env
 ansible/roles/*/*
+.DS_Store
+.vscode/*
+.venv
