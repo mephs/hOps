@@ -1,4 +1,3 @@
----
 - hosts: loadbalancers
   become: true
   gather_facts: true
