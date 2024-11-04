@@ -1,0 +1,16 @@
+stores:
+  yaml:
+    indent: 2
+creation_rules:
+  - path_regex: ansible/.*\.sops\.ya?ml
+    key_groups:
+      - age:
+          - age1e8k54s6awlfu4phagqcjdp5awrt9qhgfnsqc69nl6wwmctrz6uuqx8efk0
+  - path_regex: terraform/.*\.sops\.ya?ml
+    key_groups:
+      - age:
+          - age1e8k54s6awlfu4phagqcjdp5awrt9qhgfnsqc69nl6wwmctrz6uuqx8efk0
+  - path_regex: kubernetes/.*\.sops\.ya?ml
+    key_groups:
+      - age:
+          - age1e8k54s6awlfu4phagqcjdp5awrt9qhgfnsqc69nl6wwmctrz6uuqx8efk0
